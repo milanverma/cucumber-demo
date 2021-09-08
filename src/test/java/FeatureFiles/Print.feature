@@ -2,7 +2,7 @@
 Feature: Identify all elements on form and submit
 
 @JIRA_ZFJCLOUD-15
-Scenario: Complete the entire registration form
+Scenario: Complete the entire registration form with details
 Given Chrome browser should be opened
 When Zephyrcodecontest website is launched
 And the form is submitted with all fields filled
