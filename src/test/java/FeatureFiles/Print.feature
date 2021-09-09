@@ -6,7 +6,7 @@ Scenario: Complete the entire registration form with details
 Given Chrome browser should be opened
 When Zephyrcodecontest website is launched
 And the form is submitted with all fields filled
-Then Successfully submitted message should not be shown
+Then Successfully submitted message should be shown
 
 @JIRA_ZFJCLOUD-15
 Scenario: Open zephyrcodecontest.com website and fill multiple values
@@ -21,7 +21,7 @@ Then Go back to Welcome page and verify title
 Scenario: Open zephyrcodecontest.com website and fill multiple values 2
 Given Chrome browser should be opened
 When Zephyrcodecontest website is launched
-And the form is filled with "Greg" "Mont" "Male" "1" "1/1/2001"
+And the form is filled with "Milan" "Mont" "Male" "1" "1/1/2001"
 And the form is filled with "Black Tea" "Harmless Addiction" "Asia" and "Browser Commands"
 And clicked on submit button
 Then Go back to Welcome page and verify title
