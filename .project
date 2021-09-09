@@ -2,16 +2,8 @@
 <projectDescription>
 	<name>cucumber.projects</name>
 	<comment></comment>
-	<project>
-		<dependencies>
-			<dependency>
-    				<groupId>junit</groupId>
-				<artifactId>junit</artifactId>
-				<version>4.13.2</version>
-				<scope>test</scope>
-			</dependency>
-		</dependencies>	
-	</project>
+	<projects>
+	</projects>
 	<buildSpec>
 		<buildCommand>
 			<name>org.eclipse.jdt.core.javabuilder</name>
