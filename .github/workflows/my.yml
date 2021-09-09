@@ -51,6 +51,7 @@ jobs:
           mkdir -p ${{ github.workspace }}/config
           cp -p /home/runner/work/cucumber-demo/cucumber-demo/target/zephyr.xml ${{ github.workspace }}/config
           cat ${{ github.workspace }}/config/zephyr.xml
+        continue-on-error: true  
           
       
       # Runs a set of commands using the runners shell
@@ -61,7 +62,7 @@ jobs:
           -H 'content-type: multipart/form-data' \
           -F results_file=@target/cucumber-reports/Cucumber.json \
           -F language=jvm
-
+        continue-on-error: true
 
       # Runs a set of commands using the runners shell
       - name: Start Docker
