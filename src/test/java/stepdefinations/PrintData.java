@@ -3,6 +3,7 @@ package stepdefinations;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.junit.Assert.*;
 
 public class PrintData {
 
@@ -46,7 +47,8 @@ public class PrintData {
 		System.out.println("print Then Condition");
 	}
 
-	
-
-
+	@Then("^Successfully submitted message should not be shown$")
+	public void successfully_submitted_message_should_not_be_shown() throws Throwable {
+		assert.equal("a","b");
+	}
 }
