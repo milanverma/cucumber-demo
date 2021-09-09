@@ -6,7 +6,7 @@ Scenario: Complete the entire registration form with details
 Given Chrome browser should be opened
 When Zephyrcodecontest website is launched
 And the form is submitted with all fields filled
-Then Successfully submitted message should not be shown
+Then Successfully submitted message should be shown
 
 @JIRA_ZFJCLOUD-15
 Scenario: Open zephyrcodecontest.com website and fill multiple values
