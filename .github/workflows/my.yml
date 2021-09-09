@@ -52,17 +52,12 @@ jobs:
           cp -p /home/runner/work/cucumber-demo/cucumber-demo/target/zephyr.xml ${{ github.workspace }}/config
           cat ${{ github.workspace }}/config/zephyr.xml
           
-      - name: execute cucumber test
-        run: |
-          mvn clean test \
-          --format json \
-          --out cucumber-results.json
       
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: | 
           curl -X POST https://c4j.cucumber.io/ci/rest/api/results \
-          -H "authorization: Bearer ${{ env.TOKEN }}" \
+          -H "authorization: Bearer ${{ secrets.C4J_TOKEN }}" \
           -H 'content-type: multipart/form-data' \
           -F results_file=@target/cucumber-reports/Cucumber.json \
           -F language=jvm
