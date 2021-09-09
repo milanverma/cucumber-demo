@@ -24,7 +24,7 @@ public class PrintData {
 
 	@Then("^Successfully submitted message should be shown$")
 	public void successfully_submitted_message_should_be_shown() throws Throwable {
-		System.out.println("print Then Condition");
+		assertFalse(true);
 	}
 
 	@When("^the form is filled with \"([^\"]*)\" \"([^\"]*)\" \"([^\"]*)\" \"([^\"]*)\" \"([^\"]*)\"$")
@@ -47,8 +47,4 @@ public class PrintData {
 		System.out.println("print Then Condition");
 	}
 
-	@Then("^Successfully submitted message should not be shown$")
-	public void successfully_submitted_message_should_not_be_shown() throws Throwable {
-		assertFalse(true);
-	}
 }
