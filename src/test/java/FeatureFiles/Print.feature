@@ -1,5 +1,5 @@
 @demo
-Feature: We will Identify all elements on form and submit
+Feature: Identify all elements on form and submit
 
 @JIRA_ZFJCLOUD-15
 Scenario: Complete the entire registration form with details
