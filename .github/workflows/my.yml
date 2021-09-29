@@ -79,7 +79,7 @@ jobs:
       
       - name: Execute the Job
         run: |
-         curl -u john.candy:test7 POST  https://milan.yourzephyr.com/flex/services/rest/v3/automation/schedule -H 'Content-Type: application/json' -d '{"ids":['"$ID"']}' 
+         curl -u john.candy:test8 POST  https://milan.yourzephyr.com/flex/services/rest/v3/automation/schedule -H 'Content-Type: application/json' -d '{"ids":['"$ID"']}' 
         
       - run:  sleep 50
       
