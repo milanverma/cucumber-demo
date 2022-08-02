@@ -14,8 +14,8 @@ on:
 env:
   CONTENT_TYPE: 'multipart/form-data'
   TOKEN: 'eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb20uc21hcnRiZWFyLmN1Y3VtYmVyIiwiYXVkIjoiY2kiLCJjb250ZXh0Ijp7ImxpdmluZ19kb2NfaWQiOjIyNDV9LCJpYXQiOjE2MzExMDc3OTR9.0RHboYjqUKPa6inV5WUYLDFv7n7UtvydVsI_XaBMb6k'
-  API: '73aa838ef039a79e514c5210b835a489a2783242'
-  ZephyUrl: 'https://qademo22.yourzephyr.com'
+  API: '6b8b65a764512e04fa446b6cbb8b5a4bdb54c94f'
+  ZephyUrl: 'https://milan.yourzephyr.com'
   
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -67,7 +67,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Start Docker
         run: |
-          docker container run -d --name ze712 -v  "${{ github.workspace }}/config/zephyr.xml":"/usr/src/app/zephyr.xml" -e "SERVERURL=https://milan.yourzephyr.com" -e "ZBOTNAME=Github" -e "APITOKEN=348621e45fa8d75bad1bc33f74483ad33105207f" zsdockerbuild/zsdockerimage:ze712
+          docker container run -d --name ze712 -v  "${{ github.workspace }}/config/zephyr.xml":"/usr/src/app/zephyr.xml" -e "SERVERURL=https://milan.yourzephyr.com" -e "ZBOTNAME=Github" -e "APITOKEN=6b8b65a764512e04fa446b6cbb8b5a4bdb54c94f" zsdockerbuild/zsdockerimage:ze712
           sleep 10
           
              # Runs a set of commands using the runners shell
