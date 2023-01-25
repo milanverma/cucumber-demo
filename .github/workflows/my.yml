@@ -69,7 +69,7 @@ jobs:
         run: |
           curl --location --request POST https://qademo22.yourzephyr.com/flex/services/rest/v4/upload-file/automation/create-and-execute-job \
           --header 'Authorization: Bearer 423114f157b02b443d177af2220e3c053778f4df' \
-          --form 'fileName=@"${{ github.workspace }}/config/zephyr.xml"' \
+          --form fileName=@"${{ github.workspace }}/config/zephyr.xml" \
           --form 'automationJobDetail="{
             \"releaseId\":1,
             \"jobName\": \"Demo\",
