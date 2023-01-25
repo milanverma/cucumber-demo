@@ -85,3 +85,4 @@ jobs:
               \"phaseName\": \"api\",
               \"timeStamp\": \"true\"
               \}"
+        continue-on-error: true
