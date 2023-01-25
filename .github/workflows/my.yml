@@ -50,7 +50,7 @@ jobs:
           
           mkdir -p ${{ github.workspace }}/config
           cp -p /home/runner/work/cucumber-demo/cucumber-demo/target/zephyr.xml ${{ github.workspace }}/config
-          cat ${{ github.workspace }}/config/zephyr.xml
+          cat "${{ github.workspace }}/config/zephyr.xml"
         continue-on-error: true  
           
       
