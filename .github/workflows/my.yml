@@ -85,4 +85,3 @@ jobs:
             \"phaseName\": \"api\",
             \"timeStamp\": \"true\"
             \}"'
-              - run:  sleep 10
