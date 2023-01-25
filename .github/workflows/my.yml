@@ -14,8 +14,8 @@ on:
 env:
   CONTENT_TYPE: 'multipart/form-data'
   TOKEN: 'eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb20uc21hcnRiZWFyLmN1Y3VtYmVyIiwiYXVkIjoiY2kiLCJjb250ZXh0Ijp7ImxpdmluZ19kb2NfaWQiOjIyNDV9LCJpYXQiOjE2MzExMDc3OTR9.0RHboYjqUKPa6inV5WUYLDFv7n7UtvydVsI_XaBMb6k'
-  API: '6b8b65a764512e04fa446b6cbb8b5a4bdb54c94f'
-  ZephyUrl: 'https://milan.yourzephyr.com'
+  API: '423114f157b02b443d177af2220e3c053778f4df'
+  ZephyUrl: 'https://qademo22.yourzephyr.com'
   
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -80,7 +80,7 @@ jobs:
             \"testRepositoryPath\": \"Release 1.0 > api\",
             \"cycleEndDateStr\": \"01/25/2023\",
             \"cycleStartDateStr\": \"01/24/2023\",
-            \"isReuse\": false,
+            \"isReuse\":  \"false\,
             \"assignResultsTo\": \"1\",
             \"phaseName\": \"api\",
             \"timeStamp\": \"true\"
