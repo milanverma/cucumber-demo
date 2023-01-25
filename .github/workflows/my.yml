@@ -71,16 +71,16 @@ jobs:
           --header 'Authorization: Bearer 423114f157b02b443d177af2220e3c053778f4df' \
           --form 'fileName=@"${{ github.workspace }}/config/zephyr.xml"' \
           --form 'automationJobDetail="{
-            \"releaseId\":1,
+            \"releaseId\": \"1\",
             \"jobName\": \"Demo\",
             \"automationFramework\": \"Cucumber\",
             \"cycleName\": \"GitHub_Actions\",
-            \"jobDetailTcrCatalogTreeId\": 22,
-            \"projectId\": 1,
+            \"jobDetailTcrCatalogTreeId\": \"22\",
+            \"projectId\": \"1\",
             \"testRepositoryPath\": \"Release 1.0 > api\",
             \"cycleEndDateStr\": \"01/25/2023\",
             \"cycleStartDateStr\": \"01/24/2023\",
-            \"isReuse\":  \"false\",
+            \"isReuse\": \"false\",
             \"assignResultsTo\": \"1\",
             \"phaseName\": \"api\",
             \"timeStamp\": \"true\"
