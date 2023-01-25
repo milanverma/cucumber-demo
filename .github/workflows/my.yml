@@ -67,8 +67,22 @@ jobs:
      # Runs a set of commands using the runners shell
       - name: Create Vortex job and run
         run: |
-         curl -X POST https://qademo22.yourzephyr.com/flex/services/rest/v4/upload-file/automation/create-and-execute-job \
-         -H 'Authorization: Bearer 423114f157b02b443d177af2220e3c053778f4df' \
-         -F 'fileName=@"${{ github.workspace }}/config/zephyr.xml"' \
-         -F 'automationJobDetail="{"releaseId":1,"jobName": "Demo","automationFramework":"Cucumber","cycleName": "Github_Action","jobDetailTcrCatalogTreeId": 22,"projectId": 1,"testRepositoryPath": "Release 1.0 > api","cycleEndDateStr": "01/25/2023","cycleStartDateStr": "01/24/2023","isReuse": "false","assignResultsTo": "1","phaseName": "api","timeStamp": "true"}"'
-      - run:  sleep 10
+          curl --location --request POST https://qademo22.yourzephyr.com/flex/services/rest/v4/upload-file/automation/create-and-execute-job \
+          --header 'Authorization: Bearer 423114f157b02b443d177af2220e3c053778f4df' \
+          --form 'fileName=@"${{ github.workspace }}/config/zephyr.xml"' \
+          --form 'automationJobDetail="{
+            \"releaseId\":1,
+            \"jobName\": \"Demo\",
+            \"automationFramework\": \"junit\",
+            \"cycleName\": \"cycle\",
+            \"jobDetailTcrCatalogTreeId\": 22,
+            \"projectId\": 1,
+            \"testRepositoryPath\": \"Release 1.0 > api\",
+            \"cycleEndDateStr\": \"01/25/2023\",
+            \"cycleStartDateStr\": \"01/24/2023\",
+            \"isReuse\": false,
+            \"assignResultsTo\": \"1\",
+            \"phaseName\": \"api\",
+            \"timeStamp\": \"true\"
+            }"'
+              - run:  sleep 10
