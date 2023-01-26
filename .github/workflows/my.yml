@@ -67,7 +67,7 @@ jobs:
      # Runs a set of commands using the runners shell
       - name: Create Vortex job and run
         run: |
-         curl POST https://qademo22.yourzephyr.com/flex/services/rest/v4/upload-file/automation/create-and-execute-job \
+         curl --location --request POST https://qademo22.yourzephyr.com/flex/services/rest/v4/upload-file/automation/create-and-execute-job \
             --header "Authorization: Bearer 423114f157b02b443d177af2220e3c053778f4df" \
             --form fileName=@"/home/runner/work/cucumber-demo/cucumber-demo/target/zephyr.xml" \
             --header 'content-type: multipart/form-data' \
