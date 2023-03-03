@@ -14,7 +14,7 @@ on:
 env:
   CONTENT_TYPE: 'multipart/form-data'
   TOKEN: 'eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb20uc21hcnRiZWFyLmN1Y3VtYmVyIiwiYXVkIjoiY2kiLCJjb250ZXh0Ijp7ImxpdmluZ19kb2NfaWQiOjIyNDV9LCJpYXQiOjE2MzExMDc3OTR9.0RHboYjqUKPa6inV5WUYLDFv7n7UtvydVsI_XaBMb6k'
-  API: '423114f157b02b443d177af2220e3c053778f4df'
+  API: '7f932efc41da9fe0898f4aae30e366b56528f6b4'
   ZephyUrl: 'https://qademo22.yourzephyr.com'
   
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
