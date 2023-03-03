@@ -56,7 +56,7 @@ jobs:
       - name: Checkout Cucumber Code
         uses: actions/checkout@v2
         with:
-          repository: 'govind1072/cucumber-demo'
+          repository: 'milanverma/cucumber-demo'
           ref: main
           fetch-depth: 0
       # Runs a single command using the runners shell
