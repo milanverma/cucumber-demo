@@ -1,36 +1,26 @@
 @demo
-Feature: TJX will identify all elements on form and submit
+Feature: Identify all elements on form and submit
 
-@JIRA_ZFJCLOUD-15
-Scenario: Complete the entire registration form with details
+
+@JIRA_MAR-1
+Scenario: Complete the registration form
 Given Chrome browser should be opened
 When Zephyrcodecontest website is launched
 And the form is submitted with all fields filled
 Then Successfully submitted message should be shown
 
-@JIRA_ZFJCLOUD-15
-Scenario: Open zephyrcodecontest.com website and fill multiple values
+@JIRA_MAR-2
+Scenario Outline: Open zephyrcodecontest.com website and fill multiple values <Number>
 Given Chrome browser should be opened
 When Zephyrcodecontest website is launched
-And the form is filled with "Pradeep" "kumar" "Male" "2" "1/1/2000"
-And the form is filled with "Red Tea" "Break" "Europe" and "Navigation Commands"
+And the form is filled with <FirstName> <LastName> <Sex> <Number> <Date>
+And the form is filled with <Beverage> <Addiction> <Country> and <Command>
 And clicked on submit button
 Then Go back to Welcome page and verify title
 
-@JIRA_ZFJCLOUD-15
-Scenario: Open zephyrcodecontest.com website and fill multiple values 2
-Given Chrome browser should be opened
-When Zephyrcodecontest website is launched
-And the form is filled with "Milan" "Mont" "Male" "1" "1/1/2001"
-And the form is filled with "Black Tea" "Harmless Addiction" "Asia" and "Browser Commands"
-And clicked on submit button
-Then Go back to Welcome page and verify title
-
-@JIRA_ZFJCLOUD-15
-Scenario: Open zephyrcodecontest.com website and fill multiple values 3
-Given Chrome browser should be opened
-When Zephyrcodecontest website is launched
-And the form is filled with "Rex" "Morg" "Male" "3" "3/1/2010"
-And the form is filled with "oolong tea" "Harmless Addiction" "USA" and "Wait Commands"
-And clicked on submit button
-Then Go back to Welcome page and verify title
+Examples:
+| FirstName | LastName | Sex  | Number | Date    | Beverage | Addiction | Country | Command            |
+| "Pradeep"   | "kumar"    | "Male" | "1"      | "1/1/2000" | "Red Tea"  | "Break"| "Europe" | "Navigation Commands" |
+| "Greg" | "Mont" | "Male" | "2" | "1/1/2001" | "Black Tea" | "Harmless Addiction" | "Asia" | "Browser Commands" |
+|"Rex" | "Morg"| "Male" | "3" | "3/1/2010" | "oolong tea" | "Harmless Addiction"|  "USA" | "Wait Commands" |
+|"Govind" | "Drolia"| "Male" | "4" | "3/1/2010" | "coffee" | "Harmless Addiction"|  "INDIA" | "Login Commands" |
