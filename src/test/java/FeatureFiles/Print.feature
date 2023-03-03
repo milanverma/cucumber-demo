@@ -18,8 +18,9 @@ Feature: Identify all elements on form and submit
     Then Go back to Welcome page and verify title
     
     Examples:
-      | FirstName | LastName | Sex    | Number | Date       | Beverage     | Addiction            | Country  | Command               |
-      | "Pradeep" | "kumar"  | "Male" | "1"    | "1/1/2000" | "Red Tea"    | "Break"              | "Europe" | "Navigation Commands" |
-      | "Greg"    | "Mont"   | "Male" | "2"    | "1/1/2001" | "Black Tea"  | "Harmless Addiction" | "Asia"   | "Browser Commands"    |
-      | "Rex"     | "Morg"   | "Male" | "3"    | "3/1/2010" | "oolong tea" | "Harmless Addiction" | "USA"    | "Wait Commands"       |
-      | "Govind"  | "Drolia" | "Male" | "4"    | "3/1/2010" | "coffee"     | "Harmless Addiction" | "INDIA"  | "Login Commands"      |
+      | FirstName| LastName | Sex    | Number | Date       | Beverage     | Addiction            | Country  | Command               |
+      | "Pradeep"| "kumar"  | "Male" | "1"    | "1/1/2000" | "Red Tea"    | "Break"              | "Europe" | "Navigation Commands" |
+      | "Greg"   | "Mont"   | "Male" | "2"    | "1/1/2001" | "Black Tea"  | "Harmless Addiction" | "Asia"   | "Browser Commands"    |
+      | "Rex"    | "Morg"   | "Male" | "3"    | "3/1/2010" | "oolong tea" | "Harmless Addiction" | "USA"    | "Wait Commands"       |
+      | "Govind" | "Drolia" | "Male" | "4"    | "3/1/2010" | "coffee"     | "Harmless Addiction" | "INDIA"  | "Login Commands"      |
+      
