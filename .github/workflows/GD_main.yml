@@ -74,8 +74,7 @@ jobs:
           curl -X POST https://c4j.cucumber.io/ci/rest/api/results \
           -H 'authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb20uc21hcnRiZWFyLmN1Y3VtYmVyIiwiYXVkIjoiY2kiLCJjb250ZXh0Ijp7ImxpdmluZ19kb2NfaWQiOjM4Mjh9LCJpYXQiOjE2Nzc4NDU5NjF9.Xi5wAzR3Vm5KtRr7cayh2ECGw81YNQmWLCwJ-N6wcVU' \
           -H 'content-type: multipart/form-data' \
-          -F 'results_files[]'=@results1.json \
-          -F 'results_files[]'=@results2.json \
+          -F results_file=@target/cucumber-reports/Cucumber.json \
           -F language=jvm
       - name: Run the API Create and Execute Job
         run: | 
