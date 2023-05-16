@@ -76,7 +76,7 @@ jobs:
               \"jobName\": \"Demo\",
               \"automationFramework\": \"Cucumber\",
               \"cycleName\": \"GitHub_Actions\",
-              \"jobDetailTcrCatalogTreeId\": 8920,
+              \"jobDetailTcrCatalogTreeId\": \"8920\",
               \"projectId\": \"1\",
               \"testRepositoryPath\": \"Release 1.0 > GHA\",
               \"cycleEndDateStr\": \"03/23/2023\",
