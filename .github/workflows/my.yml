@@ -78,12 +78,12 @@ jobs:
               \"cycleName\": \"GitHub_Actions\",
               \"jobDetailTcrCatalogTreeId\": 4,
               \"projectId\": \"1\",
-              \"testRepositoryPath\": \"Release 1.0 > Automation_Scripts\",
-              \"cycleEndDateStr\": \"03/20/2023\",
+              \"testRepositoryPath\": \"Release 1.0 > api\",
+              \"cycleEndDateStr\": \"03/23/2023\",
               \"cycleStartDateStr\": \"03/16/2023\",
               \"isReuse\": \"false\",
               \"assignResultsTo\": \"1\",
-              \"phaseName\": \"Automation_Scripts\",
+              \"phaseName\": \"api\",
               \"timeStamp\": \"true\"
               \}"
         continue-on-error: true
