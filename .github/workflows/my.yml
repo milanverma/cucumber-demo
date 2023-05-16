@@ -14,8 +14,8 @@ on:
 env:
   CONTENT_TYPE: 'multipart/form-data'
   TOKEN: 'eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb20uc21hcnRiZWFyLmN1Y3VtYmVyIiwiYXVkIjoiY2kiLCJjb250ZXh0Ijp7ImxpdmluZ19kb2NfaWQiOjIyNDV9LCJpYXQiOjE2MzExMDc3OTR9.0RHboYjqUKPa6inV5WUYLDFv7n7UtvydVsI_XaBMb6k'
-  API: '0c7e7cb0f64b925cbe15ef204017eef9edb76508'
-  ZephyUrl: 'https://qademo22.yourzephyr.com'
+  API: '9b05f9ce2e7b3be1dcf9dbf47f8c16a70aeef7e1'
+  ZephyUrl: 'https://milan.yourzephyr.com'
   
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -67,23 +67,23 @@ jobs:
      # Runs a set of commands using the runners shell
       - name: Create Vortex job and run
         run: |
-         curl --location --request POST https://qademo22.yourzephyr.com/flex/services/rest/v4/upload-file/automation/create-and-execute-job \
-            --header "Authorization: Bearer 0c7e7cb0f64b925cbe15ef204017eef9edb76508" \
+         curl --location --request POST https://milan.yourzephyr.com/flex/services/rest/v4/upload-file/automation/create-and-execute-job \
+            --header "Authorization: Bearer 9b05f9ce2e7b3be1dcf9dbf47f8c16a70aeef7e1" \
             --form fileName=@"/home/runner/work/cucumber-demo/cucumber-demo/target/zephyr.xml" \
             --header 'content-type: multipart/form-data' \
             --form automationJobDetail="{
-              \"releaseId\":\"1\",
+              \"releaseId\":\"5\",
               \"jobName\": \"Demo\",
               \"automationFramework\": \"Cucumber\",
               \"cycleName\": \"GitHub_Actions\",
-              \"jobDetailTcrCatalogTreeId\": 5,
+              \"jobDetailTcrCatalogTreeId\": 8920,
               \"projectId\": \"1\",
-              \"testRepositoryPath\": \"Release 1.0 > api\",
+              \"testRepositoryPath\": \"Release 1.0 > GHA\",
               \"cycleEndDateStr\": \"03/23/2023\",
               \"cycleStartDateStr\": \"03/16/2023\",
               \"isReuse\": \"false\",
               \"assignResultsTo\": \"1\",
-              \"phaseName\": \"api\",
+              \"phaseName\": \"GHA\",
               \"timeStamp\": \"true\"
               \}"
         continue-on-error: true
