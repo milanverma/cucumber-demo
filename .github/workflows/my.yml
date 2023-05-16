@@ -79,11 +79,11 @@ jobs:
               \"jobDetailTcrCatalogTreeId\": 4,
               \"projectId\": \"1\",
               \"testRepositoryPath\": \"Release 1.0 > Automation_Scripts\",
-              \"cycleEndDateStr\": \"01/25/2023\",
-              \"cycleStartDateStr\": \"01/24/2023\",
+              \"cycleEndDateStr\": \"03/16/2023\",
+              \"cycleStartDateStr\": \"03/20/2023\",
               \"isReuse\": \"false\",
               \"assignResultsTo\": \"1\",
-              \"phaseName\": \"api\",
+              \"phaseName\": \"Automation_Scripts\",
               \"timeStamp\": \"true\"
               \}"
         continue-on-error: true
