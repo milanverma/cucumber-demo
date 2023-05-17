@@ -74,7 +74,7 @@ jobs:
           --form 'automationJobDetail={
             "releaseId":1,
             "jobName": "Demo",
-            "automationFramework": "Cucumber",
+            "automationFramework": "JUnit",
             "cycleName": "RemovedLoop",
             "jobDetailTcrCatalogTreeId": 4,
             "projectId": 1,
