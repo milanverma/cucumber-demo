@@ -15,7 +15,6 @@ Feature: Identify all elements on form and submit
     And the form is filled with <FirstName> <LastName> <Sex> <Number> <Date>
     And the form is filled with <Beverage> <Addiction> <Country> and <Command>
     And clicked on submit button
-    And 
     Then Go back to Welcome page and verify title
     
     Examples:
