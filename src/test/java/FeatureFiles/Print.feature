@@ -1,14 +1,14 @@
 @demo
 Feature: Identify all elements on form and submit
 
-  @JIRA_MAR-1 @MAR-2 @OPEN
+  @JIRA_AT-324 @AT-260 @OPEN
   Scenario: Complete the registration form
     Given The Chrome browser should be opened
     When Zephyrcodecontest website is launched
     And the form is submitted with all fields filled
     Then Successfully submitted message should be shown
 
-  @JIRA_MAR-2
+  @JIRA_AT-324
   Scenario Outline: Open zephyrcodecontest.com website and fill multiple values <Number>
     Given Chrome browser should be opened
     When Zephyrcodecontest website is launched
