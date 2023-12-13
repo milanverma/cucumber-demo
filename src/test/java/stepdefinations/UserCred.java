@@ -10,19 +10,19 @@ public class UserCred {
 	@Given("^Open the Firefox and launch the application$")
 	public void open_the_Firefox_and_launch_the_application() throws Throwable {
 	    
-	    System.out.println("Abhijit");
+	    System.out.println("Milan");
 	}
 
 	@When("^Enter the Username and Password$")
 	public void enter_the_Username_and_Password() throws Throwable {
 	   
-		 System.out.println("Miku");
+		 System.out.println("SmartBear");
 	}
 
 	@Then("^Reset the credential$")
 	public void reset_the_credential() throws Throwable {
 	   
-		 System.out.println("Das");
+		 System.out.println("Zephyr");
 	}
 
 	
