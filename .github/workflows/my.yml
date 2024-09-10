@@ -49,7 +49,7 @@ jobs:
           mvn clean test
           
           mkdir -p ${{ github.workspace }}/config
-          cp -p /home/runner/work/cucumber-demo/cucumber-demo/target/combined-report.xml ${{ github.workspace }}/config
+          cp -p /home/runner/work/cucumber-demo/cypress-test/target/combined-report.xml ${{ github.workspace }}/config
           cat "${{ github.workspace }}/config/zephyr.xml"
         continue-on-error: true  
           
