@@ -79,7 +79,7 @@ jobs:
                 "jobDetailTcrCatalogTreeId": 8921,
                 "projectId": 1,
                 "testRepositoryPath": "Release 3.2 > Automation_Scripts",
-                "cycleEndDateStr": "19/10/2024",
+                "cycleEndDateStr": "09/19/2024",
                 "cycleStartDateStr": "09/10/2024",
                 "isReuse": false,
                 "timeStamp": true,
