@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="180" failures="34" time="58.539">
+  <testsuite name="Root Suite" timestamp="2024-04-02T19:45:26" tests="0" file="cypress/e2e/gamesPageFlows/gameCardFlow.cy.js" time="0" failures="0"/>
+  <testsuite name="GameCard Flow" timestamp="2024-04-02T19:45:26" tests="6" time="20.127" failures="0">
+    <testcase name="GameCard Flow should allow user to hide team record, team scores &amp; final status pointer when clicking hide score cta " time="9.333" classname="should allow user to hide team record, team scores &amp; final status pointer when clicking hide score cta "/>
+    <testcase name="GameCard Flow should allow user to confirm team record, team scores &amp; final status pointer on a final gamecard " time="4.283" classname="should allow user to confirm team record, team scores &amp; final status pointer on a final gamecard "/>
+    <testcase name="GameCard Flow should allow user to confirm team record, team scores &amp; final status pointer on a scheduled gamecard " time="4.630" classname="should allow user to confirm team record, team scores &amp; final status pointer on a scheduled gamecard "/>
+    <testcase name="GameCard Flow should allow user to hide team record, team scores &amp; final status pointer when clicking hide score cta " time="10.223" classname="should allow user to hide team record, team scores &amp; final status pointer when clicking hide score cta "/>
+    <testcase name="GameCard Flow should allow user to confirm team record, team scores &amp; final status pointer on a final gamecard " time="4.741" classname="should allow user to confirm team record, team scores &amp; final status pointer on a final gamecard "/>
+    <testcase name="GameCard Flow should allow user to confirm team record, team scores &amp; final status pointer on a scheduled gamecard " time="5.065" classname="should allow user to confirm team record, team scores &amp; final status pointer on a scheduled gamecard "/>
+  </testsuite>
+  <testsuite name="NBATV Page" timestamp="2024-04-02T19:44:58" tests="12" time="0.001" failures="0"/>
+  <testsuite name="Anonymous Entitlements And Blackouts" timestamp="2024-04-02T19:43:24" tests="20" time="58.539" failures="0">
+    <testcase name="Anonymous Entitlements And Blackouts As an anonymous user, I should NOT be able to watch a scheduled ESPN game" time="6.840" classname="As an anonymous user, I should NOT be able to watch a scheduled ESPN game"/>
+    <testcase name="Anonymous Entitlements And Blackouts As an anonymous user, I should NOT be able to watch a scheduled TNT game" time="5.486" classname="As an anonymous user, I should NOT be able to watch a scheduled TNT game"/>
+    <testcase name="Anonymous Entitlements And Blackouts As an anonymous user, I should be able to watch a scheduled NBATV game" time="4.965" classname="As an anonymous user, I should be able to watch a scheduled NBATV game"/>
+    <testcase name="Anonymous Entitlements And Blackouts As an anonymous Out of market user, I should be able to watch a scheduled LP game" time="5.611" classname="As an anonymous Out of market user, I should be able to watch a scheduled LP game"/>
+    <testcase name="Anonymous Entitlements And Blackouts As an anonymous In market user, I should be able to watch a completed LP game" time="6.893" classname="As an anonymous In market user, I should be able to watch a completed LP game"/>
+    <testcase name="Anonymous Entitlements And Blackouts As an anonymous user, I should be able to watch a completed ESPN game" time="4.886" classname="As an anonymous user, I should be able to watch a completed ESPN game"/>
+    <testcase name="Anonymous Entitlements And Blackouts As an anonymous user, I should be able to watch a completed TNT game" time="5.046" classname="As an anonymous user, I should be able to watch a completed TNT game"/>
+    <testcase name="Anonymous Entitlements And Blackouts As an anonymous user, I should be able to watch a completed NBATV game" time="5.773" classname="As an anonymous user, I should be able to watch a completed NBATV game"/>
+    <testcase name="Anonymous Entitlements And Blackouts As an anonymous Out of market user, I should be able to watch a completed LP game" time="6.247" classname="As an anonymous Out of market user, I should be able to watch a completed LP game"/>
+    <testcase name="Anonymous Entitlements And Blackouts As an anonymous user, I should NOT be able to watch a scheduled ESPN game" time="7.772" classname="As an anonymous user, I should NOT be able to watch a scheduled ESPN game"/>
+    <testcase name="Anonymous Entitlements And Blackouts As an anonymous user, I should NOT be able to watch a scheduled TNT game" time="6.320" classname="As an anonymous user, I should NOT be able to watch a scheduled TNT game"/>
+    <testcase name="Anonymous Entitlements And Blackouts As an anonymous user, I should be able to watch a scheduled NBATV game" time="6.813" classname="As an anonymous user, I should be able to watch a scheduled NBATV game"/>
+    <testcase name="Anonymous Entitlements And Blackouts As an anonymous Out of market user, I should be able to watch a scheduled LP game" time="7.395" classname="As an anonymous Out of market user, I should be able to watch a scheduled LP game"/>
+    <testcase name="Anonymous Entitlements And Blackouts As an anonymous In market user, I should be able to watch a completed LP game" time="7.254" classname="As an anonymous In market user, I should be able to watch a completed LP game"/>
+    <testcase name="Anonymous Entitlements And Blackouts As an anonymous user, I should be able to watch a completed ESPN game" time="4.916" classname="As an anonymous user, I should be able to watch a completed ESPN game"/>
+    <testcase name="Anonymous Entitlements And Blackouts As an anonymous user, I should be able to watch a completed TNT game" time="5.173" classname="As an anonymous user, I should be able to watch a completed TNT game"/>
+    <testcase name="Anonymous Entitlements And Blackouts As an anonymous user, I should be able to watch a completed NBATV game" time="5.367" classname="As an anonymous user, I should be able to watch a completed NBATV game"/>
+    <testcase name="Anonymous Entitlements And Blackouts As an anonymous Out of market user, I should be able to watch a completed LP game" time="7.073" classname="As an anonymous Out of market user, I should be able to watch a completed LP game"/>
+  </testsuite>
+  <testsuite name="Smoke Test" timestamp="2024-04-02T19:45:09" tests="6" time="11.252" failures="0">
+    <testcase name="Smoke Test Smoke Test Page Validation" time="6.227" classname="Smoke Test Page Validation"/>
+    <testcase name="Smoke Test Smoke Onboarding Validation" time="4.483" classname="Smoke Onboarding Validation"/>
+    <testcase name="Smoke Test Smoke Test Page Validation" time="6.737" classname="Smoke Test Page Validation"/>
+    <testcase name="Smoke Test Smoke Onboarding Validation" time="4.467" classname="Smoke Onboarding Validation"/>
+  </testsuite>
+  <testsuite name="Onboarding Upsell flow" timestamp="2024-04-02T19:47:20" tests="8" time="0.001" failures="0"/>
+  <testsuite name="Local Access Entitlements And Blackouts" timestamp="2024-04-02T20:22:01" tests="18" time="3.319" failures="6">
+    <testcase name="Local Access Entitlements And Blackouts As a Local Access user, I should NOT be able to watch a scheduled ESPN game" time="0.000" classname="As a Local Access user, I should NOT be able to watch a scheduled ESPN game">
+      <failure message="Cannot read properties of undefined (reading 'username')" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'username')
+    at SignInPage.login (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:101:39)
+    at SignInPage.signInUser (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:109:13)
+    at Context.eval (webpack://nextgen-conn-web-tests/./cypress/e2e/localAccessEntitlementsAndBlackout.cy.js:36:19)]]></failure>
+    </testcase>
+    <testcase name="Local Access Entitlements And Blackouts As a Local Access user, I should be able to watch a completed TNT game" time="0.000" classname="As a Local Access user, I should be able to watch a completed TNT game">
+      <failure message="Cannot read properties of undefined (reading 'username')" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'username')
+    at SignInPage.login (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:101:39)
+    at SignInPage.signInUser (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:109:13)
+    at Context.eval (webpack://nextgen-conn-web-tests/./cypress/e2e/localAccessEntitlementsAndBlackout.cy.js:115:19)]]></failure>
+    </testcase>
+    <testcase name="Local Access Entitlements And Blackouts As a Local Access Out of market user, I should be able to watch a completed LP game" time="0.000" classname="As a Local Access Out of market user, I should be able to watch a completed LP game">
+      <failure message="Cannot read properties of undefined (reading 'username')" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'username')
+    at SignInPage.login (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:101:39)
+    at SignInPage.signInUser (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:109:13)
+    at Context.eval (webpack://nextgen-conn-web-tests/./cypress/e2e/localAccessEntitlementsAndBlackout.cy.js:143:19)]]></failure>
+    </testcase>
+    <testcase name="Local Access Entitlements And Blackouts As a Local Access user, I should NOT be able to watch a scheduled ESPN game" time="0.000" classname="As a Local Access user, I should NOT be able to watch a scheduled ESPN game">
+      <failure message="Cannot read properties of undefined (reading 'username')" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'username')
+    at SignInPage.login (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:101:39)
+    at SignInPage.signInUser (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:109:13)
+    at Context.eval (webpack://nextgen-conn-web-tests/./cypress/e2e/localAccessEntitlementsAndBlackout.cy.js:36:19)]]></failure>
+    </testcase>
+    <testcase name="Local Access Entitlements And Blackouts As a Local Access user, I should be able to watch a completed TNT game" time="0.000" classname="As a Local Access user, I should be able to watch a completed TNT game">
+      <failure message="Cannot read properties of undefined (reading 'username')" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'username')
+    at SignInPage.login (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:101:39)
+    at SignInPage.signInUser (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:109:13)
+    at Context.eval (webpack://nextgen-conn-web-tests/./cypress/e2e/localAccessEntitlementsAndBlackout.cy.js:115:19)]]></failure>
+    </testcase>
+    <testcase name="Local Access Entitlements And Blackouts As a Local Access Out of market user, I should be able to watch a completed LP game" time="0.000" classname="As a Local Access Out of market user, I should be able to watch a completed LP game">
+      <failure message="Cannot read properties of undefined (reading 'username')" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'username')
+    at SignInPage.login (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:101:39)
+    at SignInPage.signInUser (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:109:13)
+    at Context.eval (webpack://nextgen-conn-web-tests/./cypress/e2e/localAccessEntitlementsAndBlackout.cy.js:143:19)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Local Access" timestamp="2024-04-02T20:22:05" tests="8" time="18.243" failures="0">
+    <testcase name="Local Access should show Utah as local access team on Home page" time="5.565" classname="should show Utah as local access team on Home page"/>
+    <testcase name="Local Access should show Los Angeles C as local access team on Home page" time="4.027" classname="should show Los Angeles C as local access team on Home page"/>
+    <testcase name="Local Access should show Los Angeles L as local access team on Home page" time="3.923" classname="should show Los Angeles L as local access team on Home page"/>
+    <testcase name="Local Access should show Phoenix as local access team on Home page" time="4.659" classname="should show Phoenix as local access team on Home page"/>
+    <testcase name="Local Access should show Utah as local access team on Home page" time="5.660" classname="should show Utah as local access team on Home page"/>
+    <testcase name="Local Access should show Los Angeles C as local access team on Home page" time="4.101" classname="should show Los Angeles C as local access team on Home page"/>
+    <testcase name="Local Access should show Los Angeles L as local access team on Home page" time="3.838" classname="should show Los Angeles L as local access team on Home page"/>
+    <testcase name="Local Access should show Phoenix as local access team on Home page" time="3.424" classname="should show Phoenix as local access team on Home page"/>
+  </testsuite>
+  <testsuite name="Account Page" timestamp="2024-04-02T19:43:01" tests="6" time="22.875" failures="0">
+    <testcase name="Account Page should allow user go to account page and be able to turn Spoilers ON/OFF" time="7.997" classname="should allow user go to account page and be able to turn Spoilers ON/OFF"/>
+    <testcase name="Account Page should allow user to be able to visit sign ins from account screen" time="6.156" classname="should allow user to be able to visit sign ins from account screen"/>
+    <testcase name="Account Page should allow user go to visit account page cta tabs (Subscriptions, About, My Teams) and back to account page" time="6.889" classname="should allow user go to visit account page cta tabs (Subscriptions, About, My Teams) and back to account page"/>
+    <testcase name="Account Page should allow user go to account page and be able to turn Spoilers ON/OFF" time="8.153" classname="should allow user go to account page and be able to turn Spoilers ON/OFF"/>
+    <testcase name="Account Page should allow user to be able to visit sign ins from account screen" time="6.590" classname="should allow user to be able to visit sign ins from account screen"/>
+    <testcase name="Account Page should allow user go to visit account page cta tabs (Subscriptions, About, My Teams) and back to account page" time="8.057" classname="should allow user go to visit account page cta tabs (Subscriptions, About, My Teams) and back to account page"/>
+  </testsuite>
+  <testsuite name="Games Page" timestamp="2024-04-02T19:46:00" tests="6" time="27.778" failures="0">
+    <testcase name="Games Page should allow user to open calendar and use (&lt;)(&gt;) to change day view" time="6.967" classname="should allow user to open calendar and use (&lt;)(&gt;) to change day view"/>
+    <testcase name="Games Page should allow user to navigate from calendar view to game details view" time="10.752" classname="should allow user to navigate from calendar view to game details view"/>
+    <testcase name="Games Page should allow user to open calendar and use (&lt;)(&gt;) to change months view" time="7.466" classname="should allow user to open calendar and use (&lt;)(&gt;) to change months view"/>
+    <testcase name="Games Page should allow user to open calendar and use (&lt;)(&gt;) to change day view" time="7.910" classname="should allow user to open calendar and use (&lt;)(&gt;) to change day view"/>
+    <testcase name="Games Page should allow user to navigate from calendar view to game details view" time="10.962" classname="should allow user to navigate from calendar view to game details view"/>
+    <testcase name="Games Page should allow user to open calendar and use (&lt;)(&gt;) to change months view" time="8.837" classname="should allow user to open calendar and use (&lt;)(&gt;) to change months view"/>
+  </testsuite>
+  <testsuite name="Game Details Page" timestamp="2024-04-02T19:45:46" tests="8" time="14.851" failures="0">
+    <testcase name="Game Details Page should allow user to show and hide scores on gamecards" time="5.212" classname="should allow user to show and hide scores on gamecards"/>
+    <testcase name="Game Details Page should allow user to confirm upcoming header on future gamecards" time="4.522" classname="should allow user to confirm upcoming header on future gamecards"/>
+    <testcase name="Game Details Page should allow user to confirm final header on post-game gamecards" time="3.803" classname="should allow user to confirm final header on post-game gamecards"/>
+    <testcase name="Game Details Page should allow user to show and hide scores on gamecards" time="5.559" classname="should allow user to show and hide scores on gamecards"/>
+    <testcase name="Game Details Page should allow user to confirm upcoming header on future gamecards" time="4.547" classname="should allow user to confirm upcoming header on future gamecards"/>
+    <testcase name="Game Details Page should allow user to confirm final header on post-game gamecards" time="4.670" classname="should allow user to confirm final header on post-game gamecards"/>
+  </testsuite>
+  <testsuite name="Onboarding flow" timestamp="2024-04-02T20:24:19" tests="12" time="28.69" failures="4">
+    <testcase name="Onboarding flow should not redirect me to onboarding if I have gotten past upsell" time="6.563" classname="should not redirect me to onboarding if I have gotten past upsell"/>
+    <testcase name="Onboarding flow should be able to see not now and already purchased button" time="2.132" classname="should be able to see not now and already purchased button"/>
+    <testcase name="Onboarding flow should be able to sign in with NBA ID or TV Provider when clicking Already Purchase CTA" time="1.778" classname="should be able to sign in with NBA ID or TV Provider when clicking Already Purchase CTA"/>
+    <testcase name="Onboarding flow should confirm continue CTA is disabled when required field are not filled out" time="0.000" classname="should confirm continue CTA is disabled when required field are not filled out">
+      <failure message="Timed out retrying after 4000ms: expected '&lt;button.sc-822094b4-0.jYctqA.sc-9199a226-14.sc-9199a226-35.jYfhLS.bLlddt&gt;' to be 'enabled'" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<button.sc-822094b4-0.jYctqA.sc-9199a226-14.sc-9199a226-35.jYfhLS.bLlddt>' to be 'enabled'
+    at Context.eval (webpack://nextgen-conn-web-tests/./cypress/e2e/onboardingFlows/onboardingFlow.cy.js:71:41)]]></failure>
+    </testcase>
+    <testcase name="Onboarding flow should be able to view Privacy Policy &amp; Terms of Use" time="0.000" classname="should be able to view Privacy Policy &amp; Terms of Use">
+      <failure message="Timed out retrying after 4050ms: `cy.click()` failed because this element is `disabled`:
+
+`&lt;button disabled=&quot;&quot; class=&quot;sc-822094b4-0 jYctqA sc-9199a226-14 sc-9199a226-35 jYfhLS bLlddt&quot; tabindex=&quot;0&quot;&gt;Continue&lt;/button&gt;`
+
+Fix this problem, or use `{force: true}` to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with" type="CypressError"><![CDATA[CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element is `disabled`:
+
+`<button disabled="" class="sc-822094b4-0 jYctqA sc-9199a226-14 sc-9199a226-35 jYfhLS bLlddt" tabindex="0">Continue</button>`
+
+Fix this problem, or use `{force: true}` to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with
+    at Object.isNotDisabled (https://cweb-ott-qa.nba.com/__cypress/runner/cypress_runner.js:144336:58)
+    at runAllChecks (https://cweb-ott-qa.nba.com/__cypress/runner/cypress_runner.js:112165:26)
+    at retryActionability (https://cweb-ott-qa.nba.com/__cypress/runner/cypress_runner.js:112254:16)
+    at tryCatcher (https://cweb-ott-qa.nba.com/__cypress/runner/cypress_runner.js:1807:23)
+    at Promise.attempt.Promise.try (https://cweb-ott-qa.nba.com/__cypress/runner/cypress_runner.js:4315:29)
+    at whenStable (https://cweb-ott-qa.nba.com/__cypress/runner/cypress_runner.js:143192:68)
+    at <unknown> (https://cweb-ott-qa.nba.com/__cypress/runner/cypress_runner.js:143133:14)
+    at tryCatcher (https://cweb-ott-qa.nba.com/__cypress/runner/cypress_runner.js:1807:23)
+    at Promise._settlePromiseFromHandler (https://cweb-ott-qa.nba.com/__cypress/runner/cypress_runner.js:1519:31)
+    at Promise._settlePromise (https://cweb-ott-qa.nba.com/__cypress/runner/cypress_runner.js:1576:18)
+    at Promise._settlePromise0 (https://cweb-ott-qa.nba.com/__cypress/runner/cypress_runner.js:1621:10)
+    at Promise._settlePromises (https://cweb-ott-qa.nba.com/__cypress/runner/cypress_runner.js:1701:18)
+    at Promise._fulfill (https://cweb-ott-qa.nba.com/__cypress/runner/cypress_runner.js:1645:18)
+    at <unknown> (https://cweb-ott-qa.nba.com/__cypress/runner/cypress_runner.js:5450:46)
+From Your Spec Code:
+    at RegisterPage.clickContinueButton (webpack://nextgen-conn-web-tests/./cypress/pages/RegisterPage.js:88:33)
+    at RegisterPage.registerAccount (webpack://nextgen-conn-web-tests/./cypress/pages/RegisterPage.js:138:13)
+    at Context.eval (webpack://nextgen-conn-web-tests/./cypress/e2e/onboardingFlows/onboardingFlow.cy.js:82:21)]]></failure>
+    </testcase>
+    <testcase name="Onboarding flow should not redirect me to onboarding if I have gotten past upsell" time="6.147" classname="should not redirect me to onboarding if I have gotten past upsell"/>
+    <testcase name="Onboarding flow should be able to see not now and already purchased button" time="1.560" classname="should be able to see not now and already purchased button"/>
+    <testcase name="Onboarding flow should be able to sign in with NBA ID or TV Provider when clicking Already Purchase CTA" time="1.887" classname="should be able to sign in with NBA ID or TV Provider when clicking Already Purchase CTA"/>
+    <testcase name="Onboarding flow should confirm continue CTA is disabled when required field are not filled out" time="0.000" classname="should confirm continue CTA is disabled when required field are not filled out">
+      <failure message="Timed out retrying after 4000ms: expected '&lt;button.sc-822094b4-0.jYctqA.sc-9199a226-14.sc-9199a226-35.jYfhLS.bLlddt&gt;' to be 'enabled'" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<button.sc-822094b4-0.jYctqA.sc-9199a226-14.sc-9199a226-35.jYfhLS.bLlddt>' to be 'enabled'
+    at Context.eval (webpack://nextgen-conn-web-tests/./cypress/e2e/onboardingFlows/onboardingFlow.cy.js:71:41)]]></failure>
+    </testcase>
+    <testcase name="Onboarding flow should be able to view Privacy Policy &amp; Terms of Use" time="0.000" classname="should be able to view Privacy Policy &amp; Terms of Use">
+      <failure message="Timed out retrying after 4050ms: `cy.click()` failed because this element is `disabled`:
+
+`&lt;button disabled=&quot;&quot; class=&quot;sc-822094b4-0 jYctqA sc-9199a226-14 sc-9199a226-35 jYfhLS bLlddt&quot; tabindex=&quot;0&quot;&gt;Continue&lt;/button&gt;`
+
+Fix this problem, or use `{force: true}` to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with" type="CypressError"><![CDATA[CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element is `disabled`:
+
+`<button disabled="" class="sc-822094b4-0 jYctqA sc-9199a226-14 sc-9199a226-35 jYfhLS bLlddt" tabindex="0">Continue</button>`
+
+Fix this problem, or use `{force: true}` to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with
+    at Object.isNotDisabled (https://cweb-ott-qa.nba.com/__cypress/runner/cypress_runner.js:144336:58)
+    at runAllChecks (https://cweb-ott-qa.nba.com/__cypress/runner/cypress_runner.js:112165:26)
+    at retryActionability (https://cweb-ott-qa.nba.com/__cypress/runner/cypress_runner.js:112254:16)
+    at tryCatcher (https://cweb-ott-qa.nba.com/__cypress/runner/cypress_runner.js:1807:23)
+    at Promise.attempt.Promise.try (https://cweb-ott-qa.nba.com/__cypress/runner/cypress_runner.js:4315:29)
+    at whenStable (https://cweb-ott-qa.nba.com/__cypress/runner/cypress_runner.js:143192:68)
+    at <unknown> (https://cweb-ott-qa.nba.com/__cypress/runner/cypress_runner.js:143133:14)
+    at tryCatcher (https://cweb-ott-qa.nba.com/__cypress/runner/cypress_runner.js:1807:23)
+    at Promise._settlePromiseFromHandler (https://cweb-ott-qa.nba.com/__cypress/runner/cypress_runner.js:1519:31)
+    at Promise._settlePromise (https://cweb-ott-qa.nba.com/__cypress/runner/cypress_runner.js:1576:18)
+    at Promise._settlePromise0 (https://cweb-ott-qa.nba.com/__cypress/runner/cypress_runner.js:1621:10)
+    at Promise._settlePromises (https://cweb-ott-qa.nba.com/__cypress/runner/cypress_runner.js:1701:18)
+    at Promise._fulfill (https://cweb-ott-qa.nba.com/__cypress/runner/cypress_runner.js:1645:18)
+    at <unknown> (https://cweb-ott-qa.nba.com/__cypress/runner/cypress_runner.js:5450:46)
+From Your Spec Code:
+    at RegisterPage.clickContinueButton (webpack://nextgen-conn-web-tests/./cypress/pages/RegisterPage.js:88:33)
+    at RegisterPage.registerAccount (webpack://nextgen-conn-web-tests/./cypress/pages/RegisterPage.js:138:13)
+    at Context.eval (webpack://nextgen-conn-web-tests/./cypress/e2e/onboardingFlows/onboardingFlow.cy.js:82:21)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Home Page" timestamp="2024-04-02T19:44:17" tests="8" time="12.905" failures="0">
+    <testcase name="Home Page should allow user to skip to homescreen" time="3.462" classname="should allow user to skip to homescreen"/>
+    <testcase name="Home Page should allow user to naviagte swimlanes" time="7.999" classname="should allow user to naviagte swimlanes"/>
+    <testcase name="Home Page should allow user to skip to homescreen" time="3.882" classname="should allow user to skip to homescreen"/>
+    <testcase name="Home Page should allow user to naviagte swimlanes" time="8.994" classname="should allow user to naviagte swimlanes"/>
+  </testsuite>
+  <testsuite name="LP Entitlements And Blackouts" timestamp="2024-04-02T19:44:30" tests="20" time="5.716" failures="12">
+    <testcase name="LP Entitlements And Blackouts As a LP user, I should NOT be able to watch a scheduled ESPN game" time="0.000" classname="As a LP user, I should NOT be able to watch a scheduled ESPN game">
+      <failure message="Cannot read properties of undefined (reading 'username')" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'username')
+    at SignInPage.login (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:101:39)
+    at SignInPage.signInUser (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:109:13)
+    at Context.eval (webpack://nextgen-conn-web-tests/./cypress/e2e/leaguePassEntitlementsAndBlackout.cy.js:38:19)]]></failure>
+    </testcase>
+    <testcase name="LP Entitlements And Blackouts As a LP Out of market user, I should be able to watch a scheduled LP game" time="0.000" classname="As a LP Out of market user, I should be able to watch a scheduled LP game">
+      <failure message="Cannot read properties of undefined (reading 'username')" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'username')
+    at SignInPage.login (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:101:39)
+    at SignInPage.signInUser (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:109:13)
+    at Context.eval (webpack://nextgen-conn-web-tests/./cypress/e2e/leaguePassEntitlementsAndBlackout.cy.js:74:19)]]></failure>
+    </testcase>
+    <testcase name="LP Entitlements And Blackouts As a LP In market user, I should be able to watch a completed LP game" time="0.000" classname="As a LP In market user, I should be able to watch a completed LP game">
+      <failure message="Cannot read properties of undefined (reading 'username')" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'username')
+    at SignInPage.login (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:101:39)
+    at SignInPage.signInUser (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:109:13)
+    at Context.eval (webpack://nextgen-conn-web-tests/./cypress/e2e/leaguePassEntitlementsAndBlackout.cy.js:89:19)]]></failure>
+    </testcase>
+    <testcase name="LP Entitlements And Blackouts As a LP user, I should be able to watch a completed ESPN game" time="0.000" classname="As a LP user, I should be able to watch a completed ESPN game">
+      <failure message="Cannot read properties of undefined (reading 'username')" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'username')
+    at SignInPage.login (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:101:39)
+    at SignInPage.signInUser (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:109:13)
+    at Context.eval (webpack://nextgen-conn-web-tests/./cypress/e2e/leaguePassEntitlementsAndBlackout.cy.js:106:19)]]></failure>
+    </testcase>
+    <testcase name="LP Entitlements And Blackouts As a LP user, I should be able to watch a completed TNT game" time="0.000" classname="As a LP user, I should be able to watch a completed TNT game">
+      <failure message="Cannot read properties of undefined (reading 'username')" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'username')
+    at SignInPage.login (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:101:39)
+    at SignInPage.signInUser (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:109:13)
+    at Context.eval (webpack://nextgen-conn-web-tests/./cypress/e2e/leaguePassEntitlementsAndBlackout.cy.js:118:19)]]></failure>
+    </testcase>
+    <testcase name="LP Entitlements And Blackouts As a LP Out of market user, I should be able to watch a completed LP game" time="0.000" classname="As a LP Out of market user, I should be able to watch a completed LP game">
+      <failure message="Cannot read properties of undefined (reading 'username')" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'username')
+    at SignInPage.login (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:101:39)
+    at SignInPage.signInUser (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:109:13)
+    at Context.eval (webpack://nextgen-conn-web-tests/./cypress/e2e/leaguePassEntitlementsAndBlackout.cy.js:142:19)]]></failure>
+    </testcase>
+    <testcase name="LP Entitlements And Blackouts As a LP user, I should NOT be able to watch a scheduled ESPN game" time="0.000" classname="As a LP user, I should NOT be able to watch a scheduled ESPN game">
+      <failure message="Cannot read properties of undefined (reading 'username')" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'username')
+    at SignInPage.login (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:101:39)
+    at SignInPage.signInUser (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:109:13)
+    at Context.eval (webpack://nextgen-conn-web-tests/./cypress/e2e/leaguePassEntitlementsAndBlackout.cy.js:38:19)]]></failure>
+    </testcase>
+    <testcase name="LP Entitlements And Blackouts As a LP Out of market user, I should be able to watch a scheduled LP game" time="0.000" classname="As a LP Out of market user, I should be able to watch a scheduled LP game">
+      <failure message="Cannot read properties of undefined (reading 'username')" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'username')
+    at SignInPage.login (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:101:39)
+    at SignInPage.signInUser (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:109:13)
+    at Context.eval (webpack://nextgen-conn-web-tests/./cypress/e2e/leaguePassEntitlementsAndBlackout.cy.js:74:19)]]></failure>
+    </testcase>
+    <testcase name="LP Entitlements And Blackouts As a LP In market user, I should be able to watch a completed LP game" time="0.000" classname="As a LP In market user, I should be able to watch a completed LP game">
+      <failure message="Cannot read properties of undefined (reading 'username')" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'username')
+    at SignInPage.login (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:101:39)
+    at SignInPage.signInUser (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:109:13)
+    at Context.eval (webpack://nextgen-conn-web-tests/./cypress/e2e/leaguePassEntitlementsAndBlackout.cy.js:89:19)]]></failure>
+    </testcase>
+    <testcase name="LP Entitlements And Blackouts As a LP user, I should be able to watch a completed ESPN game" time="0.000" classname="As a LP user, I should be able to watch a completed ESPN game">
+      <failure message="Cannot read properties of undefined (reading 'username')" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'username')
+    at SignInPage.login (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:101:39)
+    at SignInPage.signInUser (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:109:13)
+    at Context.eval (webpack://nextgen-conn-web-tests/./cypress/e2e/leaguePassEntitlementsAndBlackout.cy.js:106:19)]]></failure>
+    </testcase>
+    <testcase name="LP Entitlements And Blackouts As a LP user, I should be able to watch a completed TNT game" time="0.000" classname="As a LP user, I should be able to watch a completed TNT game">
+      <failure message="Cannot read properties of undefined (reading 'username')" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'username')
+    at SignInPage.login (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:101:39)
+    at SignInPage.signInUser (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:109:13)
+    at Context.eval (webpack://nextgen-conn-web-tests/./cypress/e2e/leaguePassEntitlementsAndBlackout.cy.js:118:19)]]></failure>
+    </testcase>
+    <testcase name="LP Entitlements And Blackouts As a LP Out of market user, I should be able to watch a completed LP game" time="0.000" classname="As a LP Out of market user, I should be able to watch a completed LP game">
+      <failure message="Cannot read properties of undefined (reading 'username')" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'username')
+    at SignInPage.login (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:101:39)
+    at SignInPage.signInUser (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:109:13)
+    at Context.eval (webpack://nextgen-conn-web-tests/./cypress/e2e/leaguePassEntitlementsAndBlackout.cy.js:142:19)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Sign In flow" timestamp="2024-04-02T20:22:26" tests="8" time="8.096" failures="0">
+    <testcase name="Sign In flow should allow user to show and hide password when clicking on show password icon" time="3.986" classname="should allow user to show and hide password when clicking on show password icon"/>
+    <testcase name="Sign In flow should allow user to see Sign In &amp; Get Started Button" time="1.001" classname="should allow user to see Sign In &amp; Get Started Button"/>
+    <testcase name="Sign In flow should disable/enable CTA when either Email Address or Password is empty/filled" time="3.061" classname="should disable/enable CTA when either Email Address or Password is empty/filled"/>
+    <testcase name="Sign In flow should allow user to show and hide password when clicking on show password icon" time="3.832" classname="should allow user to show and hide password when clicking on show password icon"/>
+    <testcase name="Sign In flow should allow user to see Sign In &amp; Get Started Button" time="0.731" classname="should allow user to see Sign In &amp; Get Started Button"/>
+    <testcase name="Sign In flow should disable/enable CTA when either Email Address or Password is empty/filled" time="3.118" classname="should disable/enable CTA when either Email Address or Password is empty/filled"/>
+  </testsuite>
+  <testsuite name="Onboarding Navigation flow" timestamp="2024-04-02T19:47:11" tests="4" time="8.874" failures="0">
+    <testcase name="Onboarding Navigation flow should allow me to navigate through onboarding and skip signing up" time="4.677" classname="should allow me to navigate through onboarding and skip signing up"/>
+    <testcase name="Onboarding Navigation flow should be able to use back button from onboarding flow" time="2.858" classname="should be able to use back button from onboarding flow"/>
+    <testcase name="Onboarding Navigation flow should allow me to navigate through onboarding and skip signing up" time="5.248" classname="should allow me to navigate through onboarding and skip signing up"/>
+    <testcase name="Onboarding Navigation flow should be able to use back button from onboarding flow" time="3.583" classname="should be able to use back button from onboarding flow"/>
+  </testsuite>
+  <testsuite name="VIP Entitlements And Blackouts" timestamp="2024-04-02T19:45:20" tests="20" time="6.111" failures="12">
+    <testcase name="VIP Entitlements And Blackouts As a VIP user, I should NOT be able to watch a scheduled ESPN game" time="0.000" classname="As a VIP user, I should NOT be able to watch a scheduled ESPN game">
+      <failure message="Cannot read properties of undefined (reading 'username')" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'username')
+    at SignInPage.login (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:101:39)
+    at SignInPage.signInUser (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:109:13)
+    at Context.eval (webpack://nextgen-conn-web-tests/./cypress/e2e/vipEntitlementsAndBlackout.cy.js:34:19)]]></failure>
+    </testcase>
+    <testcase name="VIP Entitlements And Blackouts As a VIP Out of market user, I should be able to watch a scheduled LP game" time="0.000" classname="As a VIP Out of market user, I should be able to watch a scheduled LP game">
+      <failure message="Cannot read properties of undefined (reading 'username')" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'username')
+    at SignInPage.login (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:101:39)
+    at SignInPage.signInUser (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:109:13)
+    at Context.eval (webpack://nextgen-conn-web-tests/./cypress/e2e/vipEntitlementsAndBlackout.cy.js:66:19)]]></failure>
+    </testcase>
+    <testcase name="VIP Entitlements And Blackouts As a VIP user, I should be able to watch a completed ESPN game" time="0.000" classname="As a VIP user, I should be able to watch a completed ESPN game">
+      <failure message="Cannot read properties of undefined (reading 'username')" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'username')
+    at SignInPage.login (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:101:39)
+    at SignInPage.signInUser (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:109:13)
+    at Context.eval (webpack://nextgen-conn-web-tests/./cypress/e2e/vipEntitlementsAndBlackout.cy.js:96:19)]]></failure>
+    </testcase>
+    <testcase name="VIP Entitlements And Blackouts As a VIP user, I should be able to watch a completed TNT game" time="0.000" classname="As a VIP user, I should be able to watch a completed TNT game">
+      <failure message="Cannot read properties of undefined (reading 'username')" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'username')
+    at SignInPage.login (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:101:39)
+    at SignInPage.signInUser (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:109:13)
+    at Context.eval (webpack://nextgen-conn-web-tests/./cypress/e2e/vipEntitlementsAndBlackout.cy.js:107:19)]]></failure>
+    </testcase>
+    <testcase name="VIP Entitlements And Blackouts As a VIP user, I should be able to watch a completed NBATV game" time="0.000" classname="As a VIP user, I should be able to watch a completed NBATV game">
+      <failure message="Cannot read properties of undefined (reading 'username')" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'username')
+    at SignInPage.login (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:101:39)
+    at SignInPage.signInUser (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:109:13)
+    at Context.eval (webpack://nextgen-conn-web-tests/./cypress/e2e/vipEntitlementsAndBlackout.cy.js:118:19)]]></failure>
+    </testcase>
+    <testcase name="VIP Entitlements And Blackouts As a VIP Out of market user, I should be able to watch a completed LP game" time="0.000" classname="As a VIP Out of market user, I should be able to watch a completed LP game">
+      <failure message="Cannot read properties of undefined (reading 'username')" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'username')
+    at SignInPage.login (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:101:39)
+    at SignInPage.signInUser (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:109:13)
+    at Context.eval (webpack://nextgen-conn-web-tests/./cypress/e2e/vipEntitlementsAndBlackout.cy.js:129:19)]]></failure>
+    </testcase>
+    <testcase name="VIP Entitlements And Blackouts As a VIP user, I should NOT be able to watch a scheduled ESPN game" time="0.000" classname="As a VIP user, I should NOT be able to watch a scheduled ESPN game">
+      <failure message="Cannot read properties of undefined (reading 'username')" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'username')
+    at SignInPage.login (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:101:39)
+    at SignInPage.signInUser (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:109:13)
+    at Context.eval (webpack://nextgen-conn-web-tests/./cypress/e2e/vipEntitlementsAndBlackout.cy.js:34:19)]]></failure>
+    </testcase>
+    <testcase name="VIP Entitlements And Blackouts As a VIP Out of market user, I should be able to watch a scheduled LP game" time="0.000" classname="As a VIP Out of market user, I should be able to watch a scheduled LP game">
+      <failure message="Cannot read properties of undefined (reading 'username')" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'username')
+    at SignInPage.login (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:101:39)
+    at SignInPage.signInUser (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:109:13)
+    at Context.eval (webpack://nextgen-conn-web-tests/./cypress/e2e/vipEntitlementsAndBlackout.cy.js:66:19)]]></failure>
+    </testcase>
+    <testcase name="VIP Entitlements And Blackouts As a VIP user, I should be able to watch a completed ESPN game" time="0.000" classname="As a VIP user, I should be able to watch a completed ESPN game">
+      <failure message="Cannot read properties of undefined (reading 'username')" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'username')
+    at SignInPage.login (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:101:39)
+    at SignInPage.signInUser (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:109:13)
+    at Context.eval (webpack://nextgen-conn-web-tests/./cypress/e2e/vipEntitlementsAndBlackout.cy.js:96:19)]]></failure>
+    </testcase>
+    <testcase name="VIP Entitlements And Blackouts As a VIP user, I should be able to watch a completed TNT game" time="0.000" classname="As a VIP user, I should be able to watch a completed TNT game">
+      <failure message="Cannot read properties of undefined (reading 'username')" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'username')
+    at SignInPage.login (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:101:39)
+    at SignInPage.signInUser (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:109:13)
+    at Context.eval (webpack://nextgen-conn-web-tests/./cypress/e2e/vipEntitlementsAndBlackout.cy.js:107:19)]]></failure>
+    </testcase>
+    <testcase name="VIP Entitlements And Blackouts As a VIP user, I should be able to watch a completed NBATV game" time="0.000" classname="As a VIP user, I should be able to watch a completed NBATV game">
+      <failure message="Cannot read properties of undefined (reading 'username')" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'username')
+    at SignInPage.login (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:101:39)
+    at SignInPage.signInUser (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:109:13)
+    at Context.eval (webpack://nextgen-conn-web-tests/./cypress/e2e/vipEntitlementsAndBlackout.cy.js:118:19)]]></failure>
+    </testcase>
+    <testcase name="VIP Entitlements And Blackouts As a VIP Out of market user, I should be able to watch a completed LP game" time="0.000" classname="As a VIP Out of market user, I should be able to watch a completed LP game">
+      <failure message="Cannot read properties of undefined (reading 'username')" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'username')
+    at SignInPage.login (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:101:39)
+    at SignInPage.signInUser (webpack://nextgen-conn-web-tests/./cypress/pages/SignInPage.js:109:13)
+    at Context.eval (webpack://nextgen-conn-web-tests/./cypress/e2e/vipEntitlementsAndBlackout.cy.js:129:19)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Onboarding Favorite Team flow" timestamp="2024-04-02T20:24:02" tests="10" time="16.512" failures="0">
+    <testcase name="Onboarding Favorite Team flow should be able to change favorite team" time="4.066" classname="should be able to change favorite team"/>
+    <testcase name="Onboarding Favorite Team flow should bring user back to onboarding index using back arrow on follow favorite teams page" time="2.030" classname="should bring user back to onboarding index using back arrow on follow favorite teams page"/>
+    <testcase name="Onboarding Favorite Team flow should be able to launch home page when no team selected" time="2.765" classname="should be able to launch home page when no team selected"/>
+    <testcase name="Onboarding Favorite Team flow should verify selection of teams" time="4.370" classname="should verify selection of teams"/>
+    <testcase name="Onboarding Favorite Team flow should be able to unfollow teams" time="3.146" classname="should be able to unfollow teams"/>
+    <testcase name="Onboarding Favorite Team flow should be able to change favorite team" time="3.730" classname="should be able to change favorite team"/>
+    <testcase name="Onboarding Favorite Team flow should bring user back to onboarding index using back arrow on follow favorite teams page" time="1.429" classname="should bring user back to onboarding index using back arrow on follow favorite teams page"/>
+    <testcase name="Onboarding Favorite Team flow should be able to launch home page when no team selected" time="3.097" classname="should be able to launch home page when no team selected"/>
+    <testcase name="Onboarding Favorite Team flow should verify selection of teams" time="4.195" classname="should verify selection of teams"/>
+    <testcase name="Onboarding Favorite Team flow should be able to unfollow teams" time="2.542" classname="should be able to unfollow teams"/>
+  </testsuite>
+</testsuites>
