@@ -75,7 +75,7 @@ jobs:
                 "releaseId":5,
                 "jobName": "Demo",
                 "automationFramework": "Cucumber",
-                "cycleName": "GITHUB May 2025 RUN",
+                "cycleName": "Test Cycle - Carlo - Ebix",
                 "jobDetailTcrCatalogTreeId": 8921,
                 "projectId": 1,
                 "testRepositoryPath": "Release 3.2 > Automation_Scripts",
