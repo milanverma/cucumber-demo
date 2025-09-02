@@ -67,24 +67,13 @@ jobs:
      # Runs a set of commands using the runners shell
       - name: Create Vortex job and run
         run: |
-         curl --location --request POST 'https://milan.yourzephyr.com/flex/services/rest/v4/upload-file/automation/create-and-execute-job' \
-              --header 'Content-Type: multipart/form-data' \
-              --header 'Authorization: Bearer f7612cfe307a12f58d69c9bbcdbd6b95f152e659' \
-              --form 'fileName=@"/home/runner/work/cucumber-demo/cucumber-demo/target/zephyr.xml"' \
-              --form 'automationJobDetail={
-                "releaseId":5,
-                "jobName": "Demo",
-                "automationFramework": "Cucumber",
-                "cycleName": "Test Cycle - Carlo - Ebix",
-                "jobDetailTcrCatalogTreeId": 8921,
-                "projectId": 1,
-                "testRepositoryPath": "Release 3.2 > Automation_Scripts",
-                "cycleEndDateStr": "09/19/2024",
-                "cycleStartDateStr": "09/10/2024",
-                "isReuse": false,
-                "timeStamp": true,
-                "createPackage": false,
-                "assignResultsTo": "-10",
-                "phaseName": "Automation_Scripts"
-                }'
+                curl --location 'https://testmanagement.qmetry.com/rest/import/createandscheduletestresults/1' \
+                    --header 'project: 13306' \
+                    --header 'apikey: D3atxz0yIvCf2yJiwryfZiAkavatlGcoiekXmeO0' \
+                    --header 'Authorization: ••••••' \
+                    --header 'Cookie: AWSALB=s/1e77f2wY2kQ0Hmyie+wGkq+oQ+Xc/VOPzgVU2WTDQi96X4g9qJszopitlJyaAOnPfyLeSDAOzZ3C08AEX/6UdVqcQqeR7gxmllBnSXvtSZWu0CUXNBrLJC23oZ; AWSALBCORS=s/1e77f2wY2kQ0Hmyie+wGkq+oQ+Xc/VOPzgVU2WTDQi96X4g9qJszopitlJyaAOnPfyLeSDAOzZ3C08AEX/6UdVqcQqeR7gxmllBnSXvtSZWu0CUXNBrLJC23oZ' \
+                    --form 'file=@"/Users/milan.verma/Library/Mobile Documents/com~apple~CloudDocs/Documents/workspace/tags/target/surefire-reports/TEST-tags.tags.AppTest.xml"' \
+                    --form 'entityType="JUNIT"' \
+                    --form 'testsuiteName="MilanSeleniumImportSuiteCMD"' \
+                    --form 'automationHierarchy="2"'
         continue-on-error: true
