@@ -77,14 +77,11 @@ jobs:
 
 - name: Upload results to QMetry
   run: |
-    FILE_PATH=$(find target/surefire-reports -type f -name '*.xml' | head -n 1)
-    echo "Uploading test results: $FILE_PATH"
-
     curl --location 'https://testmanagement.qmetry.com/rest/import/createandscheduletestresults/1' \
       --header 'project: 13306' \
       --header 'apikey: D3atxz0yIvCf2yJiwryfZiAkavatlGcoiekXme00' \
       --header "Authorization: ${{ secrets.QMETRY_AUTH_TOKEN }}" \
-      --form "file=@${FILE_PATH}" \
+      --form 'file=@target/surefire-reports/TEST-testrunner.SampleRunnerTest.xml'
       --form entityType=JUNIT \
       --form testsuiteName=MilanSeleniumImportSuiteCMD \
       --form automationHierarchy=2
