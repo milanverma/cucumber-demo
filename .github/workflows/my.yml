@@ -72,19 +72,16 @@ jobs:
 
      # Runs a set of commands using the runners shell
       - name: Create Vortex job and run
+      - name: Upload results to QMetry
         run: |
-               curl --location 'https://testmanagement.qmetry.com/rest/import/createandscheduletestresults/1' \
-                    --header 'apikey: D3atxz0yIvcf2yJiwrYfZiAkavatlGcoiekXme00' \
-                    --header 'Authorization: ******' \
-                    --form 'entityType="JUNIT"' \
-                    --form 'projectID="13306"' \
-                    --form 'releaseID="Q2 Release"' \
-                    --form 'cycleID="NewRun"' \
-                    --form 'buildID="29393"' \
-                    --form 'tsFolderPath="/TCAutomationRuns"' \
-                    --form 'testsuiteName="MilanSeleniumImportSuiteCMD"' \
-                    --form 'automationHierarchy="2"' \
-                    --form 'is_matching_required="False"' \
-                    --form 'file=@target/surefire-reports/TEST-testrunner.SampleRunnerTest.xml'
-
+            FILE_PATH=$(find target/surefire-reports -type f -name '*.xml' | head -n 1)
+            echo "Uploading test results: $FILE_PATH"
+            curl --location 'https://testmanagement.qmetry.com/rest/import/createandscheduletestresults/1' \
+            --header 'project: 13306' \
+            --header 'apikey: D3atxz0yIvCf2yJiwryfZiAkavatlGcoiekXmeO0' \
+            --header "Authorization: ${{ secrets.QMETRY_AUTH_TOKEN }}" \
+            --form "file=@${FILE_PATH}" \
+            --form 'entityType="JUNIT"' \
+            --form 'testsuiteName="MilanSeleniumImportSuiteCMD"' \
+            --form 'automationHierarchy="2"'
         continue-on-error: true
