@@ -78,7 +78,7 @@ jobs:
                     --header 'apikey: D3atxz0yIvCf2yJiwryfZiAkavatlGcoiekXmeO0' \
                     --header 'Authorization: ••••••' \
                     --header 'Cookie: AWSALB=s/1e77f2wY2kQ0Hmyie+wGkq+oQ+Xc/VOPzgVU2WTDQi96X4g9qJszopitlJyaAOnPfyLeSDAOzZ3C08AEX/6UdVqcQqeR7gxmllBnSXvtSZWu0CUXNBrLJC23oZ; AWSALBCORS=s/1e77f2wY2kQ0Hmyie+wGkq+oQ+Xc/VOPzgVU2WTDQi96X4g9qJszopitlJyaAOnPfyLeSDAOzZ3C08AEX/6UdVqcQqeR7gxmllBnSXvtSZWu0CUXNBrLJC23oZ' \
-                    --form 'file=@target/surefire-reports/TEST-tags.tags.AppTest.xml'
+                    --form 'file=@target/surefire-reports/TEST-testrunner.SampleRunnerTest.xml'
                     --form 'entityType="JUNIT"' \
                     --form 'testsuiteName="MilanSeleniumImportSuiteCMD"' \
                     --form 'automationHierarchy="2"'
