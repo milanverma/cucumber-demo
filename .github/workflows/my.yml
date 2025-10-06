@@ -64,7 +64,11 @@ jobs:
           -F language=jvm
         continue-on-error: true
 
-echo "Listing sure-fire reports directory contents:" && ls -al target/surefire-reports
+      # ✅ Add this as its own step, properly indented
+- name: Debug report directory
+  run: |
+    echo "Listing sure-fire reports directory contents:" 
+    ls -al target/surefire-reports
 
      # Runs a set of commands using the runners shell
       - name: Create Vortex job and run
